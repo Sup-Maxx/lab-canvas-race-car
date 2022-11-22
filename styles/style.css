@@ -10,7 +10,8 @@ body {
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana"
+  font-family: "Verdana";
+  font-style: italic;
 }
 
 .logo-img {
@@ -35,4 +36,12 @@ body button {
 #game-board {
     float: left;
     padding: 20px 0px;
+}
+
+#canvas {
+  border: 5px darkred solid;
+}
+
+#road {
+  display: none;
 }
